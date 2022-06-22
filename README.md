@@ -64,3 +64,7 @@ _scripts use standard functions and are likely to work with other package versio
   - dplyr 1.0.7
   - ggplot2 3.3.5
   - tidyverse 1.3.1
+
+# Data
+Aggregated methylation calls and sequence aligned BAM files are deposited in NCBI’s dbGaP under accession phs002950.
+
