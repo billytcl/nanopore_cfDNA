@@ -6,6 +6,8 @@
 library(data.table)
 library(dplyr)
 library(ggplot2)
+library(tidyverse)
+library(readxl)
 
 #load reference methylation profiles
 #these should be sorted by position
