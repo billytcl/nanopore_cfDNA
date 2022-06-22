@@ -1,5 +1,5 @@
 # Single molecule methylation profiles of cell-free DNA in cancer with nanopore sequencing
-Code repository of scripts used in Lau, et al. 2022. Specifically, scripts used to generate in silico admixtures, as well as scripts for single molecule methylation classification of reads against reference profiles are included here.
+Code repository of scripts used in Lau, et al. 2022. Specifically, scripts used to generate in silico admixtures, as well as scripts for single molecule methylation classification of reads against reference profiles are included here. Some R scripts require data munging of BAM files (e.g. extraction of read lengths); these are not included but the expected formatting is described.
 
 ## Contents
 _scripts use standard functions and are likely to work with other package versions if using Python 3+ and R 4+)_
@@ -45,4 +45,22 @@ _scripts use standard functions and are likely to work with other package versio
   - dplyr 1.0.7
   - ggplot2 3.3.5
   - readxl 1.3.1
+  - tidyverse 1.3.1
+
+**nanopore_gene_analysis.R** - R notebook-style script used in Rstudio to perform gene-level methylation anaysis and plotting. This has been tested with the following:
+  - Rstudio Server 1.4.1717
+  - R 4.1.0
+  - data.table 1.14
+  - dplyr 1.0.7
+  - ggplot2 3.3.5
+  - readxl 1.3.1
+  - tidyverse 1.3.1
+  - pheatmap 1.0.12
+
+**nanopore_size_analysis.R** - R notebook-style script used in Rstudio to compute insert size distributions of cfDNA nanopore sequencing data. This has been tested with the following:
+  - Rstudio Server 1.4.1717
+  - R 4.1.0
+  - data.table 1.14
+  - dplyr 1.0.7
+  - ggplot2 3.3.5
   - tidyverse 1.3.1
